@@ -1,0 +1,66 @@
+*{
+	margin: 5px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body {
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-position: relative;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+ul {
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a {
+	text-decoration: none;
+	color: #4B0082;
+	padding: 10px 40px;
+	border: 2px solid;
+	transition: 1.5s;
+	margin-top: 10px;
+}
+ul li a:hover {
+	background-color: #1E90FF;
+	color: #FFFF00;
+}
+.logo img {
+	float: left;
+	width: 180px;
+	height: auto;
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+.jadwal {
+	color: #4B0082;
+}
+.jadwalkuliah {
+	font-family: sans-serif;
+	color: #4B0082;
+	border-collapse: collapse;
+}
+.jadwalkuliah, tr, td {
+	border: 3px solid;
+	font-size: 15px;
+	padding: 10px 20px;
+}
+.title {
+	position: absolute;
+	top: 110%;
+	left: 30%;
+	transform: translate(-50%;-50%);
+}
+.title h1 {
+	font-family: sans-serif;
+	color: #4B0082;
+	font-size: 30px;
+}
+}
